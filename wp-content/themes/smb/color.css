@@ -1,0 +1,348 @@
+
+body {
+    background: none repeat scroll 0 0 #ffffff;
+    color: #000000;
+}
+h1, h2, h3, h4, h5, h6 {
+}
+acronym, abbr {
+    border-bottom: 1px dashed #eee;
+}
+a abbr, a acronym {
+    border-bottom: medium none;
+}
+blockquote {
+    border-left: 1px solid #e9e9f1;
+}
+pre {
+    background: none repeat scroll 0 0 #f7f7fc;
+    border: 1px solid #dddde9;
+}
+fieldset {
+    border: medium none;
+}
+legend {
+    background: none repeat scroll 0 0 #e9e9f1;
+    border-color: #e9e9f1 #d8d8e4 #d8d8e4 #e9e9f1;
+    border-radius: 5px 5px 5px 0;
+    border-style: solid;
+    border-width: 1px;
+    color: #404040;
+}
+input, textarea, select {
+    background: none repeat scroll 0 0 #f3f3f7;
+    border: 1px solid #d8d8e4;
+    border-radius: 3px;
+    color: #666;
+}
+input:focus, input.focus, textarea:focus, textarea.focus, select:focus, select.focus {
+    background: none repeat scroll 0 0 #fff;
+    border-color: #407096;
+    color: #606060;
+}
+input[type="submit"] {
+    background: none repeat scroll 0 0 #505050;
+    border-color: #505050;
+    border-radius: 5px;
+    color: #fff;
+}
+input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #dee2e9;
+    border-color: #ddd;
+    color: #505050;
+}
+input[type="submit"]:active, input[type="submit"]:focus {
+    background: none repeat scroll 0 0 #407096;
+    border-color: #507086;
+    color: #fff;
+}
+input[type="checkbox"] {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+}
+input[type="checkbox"]:active, input[type="checkbox"]:focus {
+    background: none repeat scroll 0 0 #407096;
+}
+table, th, td {
+    border: 1px solid #d8d8e4;
+}
+th {
+    background: none repeat scroll 0 0 #f3f3f9;
+}
+a {
+    color: #e28400;
+}
+a:visited {
+    color: #e28400;
+}
+a:active, a:focus {
+    background: none repeat scroll 0 0 #407096;
+    color: #e28400;
+}
+a img {
+    border: 1px solid #fff;
+}
+a:active img, a:focus img {
+    border-color: #407096;
+}
+#header {
+}
+#header h1 a:active, #header h1 a:focus {
+    color: #fff;
+}
+.rss {
+    background: url("images/rss.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    display: none;
+}
+.rss:hover {
+    background-position: left top;
+    display: none;
+}
+.horizontal-menu a {
+    color: #ffffff;
+}
+#upper-menu ul ul {
+}
+#upper-menu li:hover, #upper-menu ul ul li {
+    background: none repeat scroll 0 0 #fff;
+}
+#upper-menu li a:hover, #upper-menu li a:active, #upper-menu li a:focus {
+    background: none repeat scroll 0 0 #eff1f5;
+}
+#lower-menu {
+}
+#lower-menu ul a {
+    color: #75a29c;
+}
+#lower-menu li a:hover {
+    background: none repeat scroll 0 0 #fff;
+}
+#innerwrap {
+}
+#content {
+}
+#content_pagebkg1 {
+    background-color: #fff;
+    background-image: url("http://needful.no/wp-content/uploads/2011/05/119_background.jpg");
+}
+#vertical {
+    margin-right: 5px;
+}
+#vertical a {
+}
+#vertical .widget a {
+    color: #407096;
+}
+#vertical a:visited {
+}
+#vertical a:active, #vertical a:focus {
+    background: none repeat scroll 0 0 #407096;
+    color: #ffffff;
+}
+.meta {
+    color: #666;
+}
+.sticky {
+    background: none repeat scroll 0 0 #f3f3f9;
+    border-radius: 5px;
+}
+.prevnext .next a {
+    background: url("images/left.gif") no-repeat scroll left center rgba(0, 0, 0, 0);
+}
+.prevnext .prev a {
+    background: url("images/right.gif") no-repeat scroll right center rgba(0, 0, 0, 0);
+}
+.prevnext .next a:active, .prevnext .next a:focus, .prevnext .prev a:active, .prevnext .prev a:focus {
+    background: none repeat scroll 0 0 #407096;
+    color: #fff;
+}
+.page-numbers a, .pagelist a {
+    background: none repeat scroll 0 0 #f0f1f6;
+    border: 1px solid #e7e8f0;
+    color: #444;
+}
+.page-numbers a:hover, .pagelist a:hover {
+    background-color: #fff;
+}
+.page-numbers a:active, .page-numbers a:focus, .pagelist a:active, .pagelist a:focus {
+    background: none repeat scroll 0 0 #407096;
+    border-color: #507086;
+    color: #fff;
+}
+.wp-caption img, .gallery img {
+    border: 10px solid #f3f3f9;
+    border-radius: 3px;
+}
+.wp-caption a:hover img, .gallery a:hover img {
+    border-color: #dee2e9;
+}
+.wp-caption a:active img, .wp-caption a:focus img, .gallery a:active img, .gallery a:focus img {
+    border-color: #407096;
+}
+.wp-smiley {
+}
+.wp-caption a:active, .wp-caption a:focus, .gallery a:active, .gallery a:focus {
+    background: none repeat scroll 0 0 transparent;
+}
+.page-tree {
+    background-color: #f3f3f9;
+    border: 1px solid #dee2e9;
+}
+#feedback-list .comment, #feedback-list .trackback, #feedback-list .pingback {
+    border: 1px solid #e4e4ec;
+}
+#feedback-list .comment-author, #feedback-list .commentmetadata {
+    background-color: #f0f1f6;
+}
+#feedback-list .commentmetadata {
+    border-bottom: 1px solid #e4e4ec;
+}
+#feedback-list .bypostauthor {
+    background: none repeat scroll 0 0 #f8f9fc;
+}
+.widget-box, #vertical .widget {
+    border: medium none;
+    text-align: center;
+}
+.category-feed {
+    background: url("images/cat-rss.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.category-feed:hover {
+    background-position: left bottom;
+}
+.rss img {
+    border: medium none;
+}
+.eshop .buttonimg {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+}
+.eshop .onsale {
+    background: url("images/onsale.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.eshop .onsale span {
+    background: none repeat scroll 0 0 #c00;
+    border: 1px solid #b00;
+    color: #fff;
+}
+.eshopproducts_widget .sale strong {
+    background: url("images/onsale-small.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    height: 32px;
+    width: 32px;
+}
+.eshopcart table, .cart, .eshop th, .eshop td {
+    border: 1px solid #dddde9;
+}
+.eshop th {
+    background: none repeat scroll 0 0 #f3f3f9;
+}
+.eshop td {
+    background: none repeat scroll 0 0 #fff;
+}
+.eshop .alt td, .eshop .alt th {
+    background: none repeat scroll 0 0 #f7f7fc;
+}
+.eshop .deletecartitem input {
+    background: none repeat scroll 0 0 transparent;
+    border-color: #fff;
+}
+.eshop .alt .deletecartitem input {
+    border-color: #f8f8fb;
+}
+.eshop .stotal .amts {
+    color: #d21e1f;
+}
+.eshop .total .amts {
+    color: #00803f;
+}
+.eshopform fieldset {
+    border: medium none;
+}
+.addtocart fieldset, .eshopform fieldset fieldset {
+    background: none repeat scroll 0 0 #f8f8fb;
+    border: 1px solid #e9e9f1;
+    border-radius: 5px;
+}
+.addtocart .echeckbox {
+    border: medium none;
+}
+.addtocart .echeckbox legend {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #666;
+}
+.eshopform #mainlegend {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+}
+.errors strong, .testing strong {
+    color: #961336;
+}
+.errors li {
+    list-style-image: url("images/cart_errors.png");
+}
+.eshop .alt th.scharge {
+}
+.eshoppanels > li {
+    background: none repeat scroll 0 0 #f7f7fc;
+    border: 1px solid #d8d8e4;
+    border-radius: 5px;
+}
+.eshoppanels li .addtocart fieldset {
+    border: medium none;
+}
+.eshoppanels li .addtocart select {
+    background: none repeat scroll 0 0 #fff;
+    color: #606060;
+}
+.eshopaz li a {
+    background: none repeat scroll 0 0 #eee;
+    border: 1px solid #e9e9f1;
+}
+.eshopaz li.current a {
+    background: none repeat scroll 0 0 #505050;
+    border: 1px solid #505050;
+    color: #fff;
+}
+.eshopaz li a:hover, .eshopaz li a:active, .eshopaz li a:focus {
+    border-color: #bdbdd2;
+}
+.eslideshow {
+    background: none repeat scroll 0 0 #ebe9d9;
+    border: 1px solid #dddde9;
+    border-radius: 5px;
+}
+.eslideshow .eshop li a img {
+    border-color: #f7f7fc;
+}
+.eslideshow .eshop li a:active img, .eslideshow .eshop li a:focus img {
+    border-color: #407096;
+}
+.eslideshow .prev {
+    background: url("images/control-left.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.eslideshow .prev:hover {
+    background-position: left top;
+}
+.eslideshow .next {
+    background: url("images/control-right.png") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+}
+.eslideshow .next:hover {
+    background-position: left top;
+}
+.eslideshow .auto_controls a {
+    background: none repeat scroll 0 0 #999;
+    border: 1px solid #888;
+    border-radius: 5px;
+    color: #fff;
+}
+.eslideshow .auto_controls a:hover {
+    background: none repeat scroll 0 0 #333;
+    border-color: #222;
+}
+.required, .reqd {
+    color: #c00;
+}
+.error {
+    color: #961336;
+}
